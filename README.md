@@ -1,6 +1,6 @@
 # <center>Motix</center>
 ## <center>_La logística que tu motor necesita._</center>
-<p style="text-align: justify">
+<p style="text-align: right">
     Motix es la solución integral para la gestión de logística y ventas, 
     diseñada para satisfacer las necesidades de las empresas modernas. 
     Con una <b>interfaz moderna y centrada en la simplicidad</b> :computer:, 
