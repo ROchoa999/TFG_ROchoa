@@ -9,8 +9,8 @@
     procesar ventas</b> de manera eficiente y segura.<br/><br>
     Nuestra plataforma ofrece una serie de <b>características avanzadas</b> que 
     incluyen la <b>automatización de tareas repetitivas</b>, lo que permite a 
-    las empresas <b>ahorrar tiempo y reducir costos operativos</b>. La 
-    <b>seguridad de los datos</b> es una prioridad en Motix, utilizando las 
+    las empresas <b>ahorrar tiempo y reducir costos operativos</b>. :stopwatch: La 
+    <b>seguridad de los datos</b> :lock: es una prioridad en Motix, utilizando las 
     últimas tecnologías para garantizar que la información de nuestros clientes 
     esté siempre protegida.<br/><br>
     Además, Motix es <b>accesible desde cualquier lugar del mundo con acceso a 
