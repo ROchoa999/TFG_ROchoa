@@ -5,7 +5,7 @@
     diseñada para satisfacer las necesidades de las empresas modernas. 
     Con una <b>interfaz moderna y centrada en la simplicidad</b> :computer:, 
     Motix permite a las empresas <b>optimizar sus procesos logísticos, 
-    gestionar inventarios, realizar seguimientos de envíos :pickup_truck: y 
+    gestionar inventarios, realizar seguimientos de envíos :truck: y 
     procesar ventas</b> de manera eficiente y segura.<br/><br>
     Nuestra plataforma ofrece una serie de <b>características avanzadas</b> que 
     incluyen la <b>automatización de tareas repetitivas</b>, lo que permite a 
@@ -20,6 +20,3 @@
     su negocio y satisfacer a sus clientes.</b>
 </p>
 
-:computer:
-:earth_africa:
-:box:
