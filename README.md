@@ -96,34 +96,17 @@ Diagrama de secuencia
 
 ```mermaid
 sequenceDiagram
-    participant Usuario
-    participant Sistema
-    participant BaseDeDatos
-    participant API
-    participant Frontend
-    participant Integración
-    participant Testing
-
-    Usuario->>Sistema: Solicita autenticación
-    Sistema->>BaseDeDatos: Verifica credenciales
-    BaseDeDatos-->>Sistema: Credenciales verificadas
-    Sistema-->>Usuario: Autenticación exitosa
-
-    Usuario->>Sistema: Solicita datos
-    Sistema->>API: Consulta datos
-    API-->>Sistema: Datos obtenidos
-    Sistema-->>Usuario: Datos entregados
-
-    Usuario->>Frontend: Interactúa con la interfaz
-    Frontend->>Sistema: Envía datos de usuario
-    Sistema->>Integración: Procesa pagos/envíos
-    Integración-->>Sistema: Confirmación de servicios
-    Sistema-->>Frontend: Actualiza interfaz
-
-    Usuario->>Sistema: Solicita pruebas
-    Sistema->>Testing: Ejecuta pruebas unitarias
-    Testing-->>Sistema: Resultados de pruebas
-    Sistema-->>Usuario: Resultados entregados
+    actor User as Usuario
+    participant FE as Frontend
+    participant BE as Backend
+    participant DB as Base de Datos
+    
+    User ->> FE: Envío de datos
+    FE ->> BE: Validación de datos
+    BE ->> DB: Verificar existencia
+    DB -->> BE: Datos correctos
+    BE -->> FE: Respuesta validada
+    FE -->> User: Login exitoso
 ```
     
 ---
