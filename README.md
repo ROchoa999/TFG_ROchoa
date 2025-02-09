@@ -83,13 +83,13 @@ graph TD;
 <a name="desarrollo-del-proyecto"></a>
 
 | Módulo         | Descripción                                      | Tecnologías Utilizadas | Estado       | Fecha de Inicio | Fecha Estimada de Finalización |
-|----------------|--------------------------------------------------|------------------------|--------------|-----------------|-------------------------------|
-| Autenticación  | Gestión de usuarios y autenticación              | Node.js, JWT           | Completado   | 2025-01-01      | 2025-01-10                    |
-| Base de Datos  | Diseño y gestión de la base de datos             | MongoDB, Mongoose      | En progreso  | 2025-01-11      | 2025-02-01                    |
-| API REST       | Creación de endpoints para la aplicación         | Express.js             | Completado   | 2025-01-02      | 2025-01-15                    |
-| Frontend       | Desarrollo de la interfaz de usuario             | React, Redux           | En progreso  | 2025-01-16      | 2025-02-15                    |
-| Integración    | Integración de servicios externos (pagos, envíos)| Stripe API, DHL API    | Pendiente    | 2025-02-02      | 2025-02-20                    |
-| Testing        | Pruebas unitarias y de integración               | Jest, Mocha            | En progreso  | 2025-01-20      | 2025-02-10                    |
+|----------------|--------------------------------------------------|------------------------|--------------|-----------------|--------------------------------|
+| Markdown       | Diseño y exposición del proyecto y los pasos     | Markdown               | Completado   | 2025-02-01      | 2025-02-09                     |
+| Base de Datos  | Diseño y gestión de la base de datos             | AWS                    | En progreso  | 2025-02-28      | 2025-03-15                     |
+| Autenticación  | Gestión de usuarios y autenticación              | Java                   | Pendiente    | 2025-03-16      | 2025-03-31                     |
+| Frontend       | Desarrollo de la interfaz de usuario             | JavaFX                 | Pendiente    | 2025-04-01      | 2025-04-15                     |
+| Integración    | Integración de servicios externos (pagos, envíos)| DHL API                | Pendiente    | 2025-04-16      | 2025-04-30                     |
+| Testing        | Pruebas unitarias y de integración               | JUnit                  | Pendiente    | 2025-05-01      | 2025-05.15                     |
 
 ---
 
