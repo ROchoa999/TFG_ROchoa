@@ -42,6 +42,14 @@ Hemos utilizado diversas tecnologías para el desarrollo de este proyecto, inclu
 - ***AWS*** para el despliegue en la nube :cloud:
 - ***Java*** para el desarrollo backend :coffee:
 
+```mermaid
+pie
+    java: 40
+    aws: 40
+    GitHub: 20
+    
+```
+
 ---
 
 ## :rocket: Instalación y Uso
