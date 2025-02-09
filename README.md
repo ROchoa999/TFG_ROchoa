@@ -100,6 +100,19 @@ graph TD;
 | Integración    | Integración de servicios externos (pagos, envíos)| DHL API                | Pendiente    | 2025-04-16      | 2025-04-30                     |
 | Testing        | Pruebas unitarias y de integración               | JUnit                  | Pendiente    | 2025-05-01      | 2025-05.15                     |
 
+```mermaid
+gantt
+    title Diagrama de Gantt del Proyecto
+    dateFormat  YYYY-MM-DD
+    section Módulos
+    Markdown       :done,  des1, 2025-02-01, 2025-02-09
+    Base de Datos  :active, des2, 2025-02-28, 2025-03-15
+    Autenticación  :        des3, 2025-03-16, 2025-03-31
+    Frontend       :        des4, 2025-04-01, 2025-04-15
+    Integración    :        des5, 2025-04-16, 2025-04-30
+    Testing        :        des6, 2025-05-01, 2025-05-15
+```
+
 Diagrama de secuencia
 
 
