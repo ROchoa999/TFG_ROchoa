@@ -7,12 +7,12 @@ En este repositorio encontrarás toda la información sobre nuestro trabajo, en 
 ---
 
 ## 📖 Índice
-1. [Descripción del Proyecto](#descripcion-del-proyecto)
-2. [Tecnologías Utilizadas](#tecnologias-utilizadas)
-3. [Instalación y Uso](#instalacion-y-uso)
-4. [Arquitectura del Proyecto](#arquitectura-del-proyecto)
-5. [Contribuciones](#contribuciones)
-6. [Licencia](#licencia)
+1. [Descripción del Proyecto](#📌-descripción-del-proyecto)
+2. [Tecnologías Utilizadas](#🛠️-tecnologías-utilizadas)
+3. [Instalación y Uso](#🚀-instalación-y-uso)
+4. [Arquitectura del Proyecto](#📐-arquitectura-del-proyecto)
+5. [Contribuciones](#🤝-contribuciones)
+6. [Licencia](#📜-licencia)
 
 ---
 
