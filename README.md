@@ -93,18 +93,12 @@ graph TD;
 
 Diagrama de secuencia
 
-sequenceDiagram
-    actor User as Usuario
-    participant FE as Frontend
-    participant BE as Backend
-    participant DB as Base de Datos
-    
-    User ->> FE: Envío de datos
-    FE ->> BE: Validación de datos
-    BE ->> DB: Verificar existencia
-    DB -->> BE: Datos correctos
-    BE -->> FE: Respuesta validada
-    FE -->> User: Login exitoso
+pie
+    title Lenguajes utilizados en el proyecto
+    "Java": 25
+    "HTML": 25
+    "CSS": 25
+    "JavaScript": 25
     
 ---
 
