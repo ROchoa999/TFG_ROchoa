@@ -94,34 +94,25 @@ graph TD;
 Diagrama de secuencia
 
 sequenceDiagram
-    participant Usuario
-    participant Sistema
+    participant Markdown
     participant BaseDeDatos
-    participant API
+    participant Autenticacion
     participant Frontend
-    participant Integración
+    participant Integracion
     participant Testing
 
-    Usuario->>Sistema: Solicita autenticación
-    Sistema->>BaseDeDatos: Verifica credenciales
-    BaseDeDatos-->>Sistema: Credenciales verificadas
-    Sistema-->>Usuario: Autenticación exitosa
+    Markdown->>BaseDeDatos: Inicia diseño de base de datos (Completado)
+    BaseDeDatos->>Autenticacion: Inicia gestión de usuarios (En progreso)
+    Autenticacion->>Frontend: Inicia desarrollo de interfaz de usuario (Pendiente)
+    Frontend->>Integracion: Inicia integración de servicios externos (Pendiente)
+    Integracion->>Testing: Inicia pruebas unitarias e integración (Pendiente)
+    Note over Markdown: Fecha de inicio 2025-02-01, fecha estimada 2025-02-09
+    Note over BaseDeDatos: Fecha de inicio 2025-02-28, fecha estimada 2025-03-15
+    Note over Autenticacion: Fecha de inicio 2025-03-16, fecha estimada 2025-03-31
+    Note over Frontend: Fecha de inicio 2025-04-01, fecha estimada 2025-04-15
+    Note over Integracion: Fecha de inicio 2025-04-16, fecha estimada 2025-04-30
+    Note over Testing: Fecha de inicio 2025-05-01, fecha estimada 2025-05-15
 
-    Usuario->>Sistema: Solicita datos
-    Sistema->>API: Consulta datos
-    API-->>Sistema: Datos obtenidos
-    Sistema-->>Usuario: Datos entregados
-
-    Usuario->>Frontend: Interactúa con la interfaz
-    Frontend->>Sistema: Envía datos de usuario
-    Sistema->>Integración: Procesa pagos/envíos
-    Integración-->>Sistema: Confirmación de servicios
-    Sistema-->>Frontend: Actualiza interfaz
-
-    Usuario->>Sistema: Solicita pruebas
-    Sistema->>Testing: Ejecuta pruebas unitarias
-    Testing-->>Sistema: Resultados de pruebas
-    Sistema-->>Usuario: Resultados entregados
     
 ---
 
