@@ -95,12 +95,35 @@ Diagrama de secuencia
 
 
 ```mermaid
-pie
-    title Lenguajes utilizados en el proyecto
-    "Java": 25
-    "HTML": 25
-    "CSS": 25
-    "JavaScript": 25
+sequenceDiagram
+    participant Usuario
+    participant Sistema
+    participant BaseDeDatos
+    participant API
+    participant Frontend
+    participant Integración
+    participant Testing
+
+    Usuario->>Sistema: Solicita autenticación
+    Sistema->>BaseDeDatos: Verifica credenciales
+    BaseDeDatos-->>Sistema: Credenciales verificadas
+    Sistema-->>Usuario: Autenticación exitosa
+
+    Usuario->>Sistema: Solicita datos
+    Sistema->>API: Consulta datos
+    API-->>Sistema: Datos obtenidos
+    Sistema-->>Usuario: Datos entregados
+
+    Usuario->>Frontend: Interactúa con la interfaz
+    Frontend->>Sistema: Envía datos de usuario
+    Sistema->>Integración: Procesa pagos/envíos
+    Integración-->>Sistema: Confirmación de servicios
+    Sistema-->>Frontend: Actualiza interfaz
+
+    Usuario->>Sistema: Solicita pruebas
+    Sistema->>Testing: Ejecuta pruebas unitarias
+    Testing-->>Sistema: Resultados de pruebas
+    Sistema-->>Usuario: Resultados entregados
 ```
     
 ---
