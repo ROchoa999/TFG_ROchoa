@@ -25,6 +25,8 @@ Nuestra plataforma ofrece una serie de **características avanzadas** que incluy
 
 Además, Motix es **accesible desde cualquier lugar del mundo con acceso a internet** :earth_africa:, lo que garantiza la continuidad del negocio y la flexibilidad necesaria en el entorno empresarial actual. Con Motix, las empresas pueden centrarse en lo que realmente importa: **hacer crecer su negocio y satisfacer a sus clientes.**
 
+> "La mejor manera de predecir el futuro es crearlo." – Peter Drucker
+
 ---
 
 ## 🛠️ Tecnologías Utilizadas
