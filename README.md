@@ -1,4 +1,4 @@
-# Motix
+# <center>Motix</center>
 
 ¡Bienvenidos a nuestro proyecto final de grado! :mortar_board::rocket:
 
