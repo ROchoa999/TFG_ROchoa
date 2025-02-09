@@ -7,16 +7,17 @@ En este repositorio encontrarás toda la información sobre nuestro trabajo, en 
 ---
 
 ## 📖 Índice
-1. [Descripción del Proyecto](#📌-descripción-del-proyecto)
-2. [Tecnologías Utilizadas](#🛠️-tecnologías-utilizadas)
-3. [Instalación y Uso](#🚀-instalación-y-uso)
-4. [Arquitectura del Proyecto](#📐-arquitectura-del-proyecto)
-5. [Contribuciones](#🤝-contribuciones)
-6. [Licencia](#📜-licencia)
+1. [Descripción del Proyecto](#descripción-del-proyecto)
+2. [Tecnologías Utilizadas](#tecnologías-utilizadas)
+3. [Instalación y Uso](#instalación-y-uso)
+4. [Arquitectura del Proyecto](#arquitectura-del-proyecto)
+5. [Contribuciones](#contribuciones)
+6. [Licencia](#licencia)
 
 ---
 
 ## 📌 Descripción del Proyecto
+<a name="descripción-del-proyecto"></a>
 
 Motix es la solución integral para la gestión de logística y ventas, diseñada para satisfacer las necesidades de las empresas modernas. 
 Con una **interfaz moderna y centrada en la simplicidad** :computer:, Motix permite a las empresas **optimizar sus procesos logísticos, gestionar inventarios, realizar seguimientos de envíos :truck: y procesar ventas** de manera eficiente y segura.
@@ -30,6 +31,7 @@ Además, Motix es **accesible desde cualquier lugar del mundo con acceso a inter
 ---
 
 ## 🛠️ Tecnologías Utilizadas
+<a name="tecnologías-utilizadas"></a>
 
 ![GitHub](https://img.shields.io/badge/GitHub-%23181717.svg?style=flat&logo=github&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white)
@@ -43,6 +45,7 @@ Hemos utilizado diversas tecnologías para el desarrollo de este proyecto, inclu
 ---
 
 ## 🚀 Instalación y Uso
+<a name="instalación-y-uso"></a>
 
 Sigue estos pasos para instalar y ejecutar el proyecto:
 ```bash
@@ -62,6 +65,7 @@ yarn start
 ---
 
 ## 📐 Arquitectura del Proyecto
+<a name="arquitectura-del-proyecto"></a>
 
 A continuación, se muestra un diagrama que ilustra la arquitectura general del proyecto:
 
@@ -76,6 +80,7 @@ graph TD;
 ---
 
 ## 🤝 Contribuciones
+<a name="contribuciones"></a>
 
 ¡Las contribuciones son bienvenidas! Si deseas colaborar con nuestro proyecto, sigue estos pasos:
 1. Haz un fork del repositorio 🔄
@@ -87,6 +92,7 @@ graph TD;
 ---
 
 ## 📜 Licencia
+<a name="licencia"></a>
 
 Este proyecto está bajo la licencia MIT. Para más información, consulta el archivo `LICENSE`.
 
