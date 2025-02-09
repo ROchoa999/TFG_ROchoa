@@ -33,7 +33,7 @@ Además, Motix es **accesible desde cualquier lugar del mundo con acceso a inter
 ## 🛠️ Tecnologías Utilizadas
 <a name="tecnologías-utilizadas"></a>
 
-![GitHub](https://img.shields.io/badge/GitHub-%23181717.svg?style=flat&logo=github&logoColor=white)
+![GitHub Followers](https://img.shields.io/github/followers/usuario?style=social)
 ![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white)
 
