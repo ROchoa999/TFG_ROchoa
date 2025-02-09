@@ -1,5 +1,4 @@
 # <center>Motix</center>
-<center>Texto alineado al centro</center>
 
 ¡Bienvenidos a nuestro proyecto final de grado! :mortar_board::rocket:
 
