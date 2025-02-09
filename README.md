@@ -12,7 +12,7 @@ En este repositorio encontrarás toda la información sobre nuestro trabajo, en 
 3. [Instalación y Uso](#instalación-y-uso)
 4. [Arquitectura del Proyecto](#arquitectura-del-proyecto)
 5. [Desarrollo del Proyecto](#desarrollo-del-proyecto)
-6. [Licencia](#licencia)
+6. [Video Promocional](#video-promocional)
 
 ---
 
@@ -93,10 +93,10 @@ graph TD;
 
 ---
 
-## :scroll: Licencia
-<a name="licencia"></a>
+## :articulated_lorry: Video Promocional
+<a name="video-promocional"></a>
 
-Este proyecto está bajo la licencia MIT. Para más información, consulta el archivo `LICENSE`.
+[![Transportes SATA]([URL_de_la_miniatura](https://img.youtube.com/vi/4qDOnB9bWzQ/0.jpg))]([URL_del_vídeo](https://www.youtube.com/watch?v=4qDOnB9bWzQ))
 
 ---
 
