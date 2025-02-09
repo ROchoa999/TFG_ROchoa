@@ -93,12 +93,15 @@ graph TD;
 
 Diagrama de secuencia
 
+
+```mermaid
 pie
     title Lenguajes utilizados en el proyecto
     "Java": 25
     "HTML": 25
     "CSS": 25
     "JavaScript": 25
+```
     
 ---
 
