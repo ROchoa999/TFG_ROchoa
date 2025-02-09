@@ -102,7 +102,7 @@ graph TD;
 
 ```mermaid
 gantt
-    title Diagrama de Gantt del Proyecto
+    title Diagrama de Gantt
     dateFormat  YYYY-MM-DD
     section Módulos
     Markdown       :done,  des1, 2025-02-01, 2025-02-09
