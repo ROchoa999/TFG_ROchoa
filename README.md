@@ -94,25 +94,17 @@ graph TD;
 Diagrama de secuencia
 
 sequenceDiagram
-    participant Markdown
-    participant BaseDeDatos
-    participant Autenticacion
-    participant Frontend
-    participant Integracion
-    participant Testing
+actor User as Usuario
+participant FE as Frontend
+participant BE as Backend
+participant DB as Base de Datos
 
-    Markdown->>BaseDeDatos: Inicia diseño de base de datos (Completado)
-    BaseDeDatos->>Autenticacion: Inicia gestión de usuarios (En progreso)
-    Autenticacion->>Frontend: Inicia desarrollo de interfaz de usuario (Pendiente)
-    Frontend->>Integracion: Inicia integración de servicios externos (Pendiente)
-    Integracion->>Testing: Inicia pruebas unitarias e integración (Pendiente)
-    Note over Markdown: Fecha de inicio 2025-02-01, fecha estimada 2025-02-09
-    Note over BaseDeDatos: Fecha de inicio 2025-02-28, fecha estimada 2025-03-15
-    Note over Autenticacion: Fecha de inicio 2025-03-16, fecha estimada 2025-03-31
-    Note over Frontend: Fecha de inicio 2025-04-01, fecha estimada 2025-04-15
-    Note over Integracion: Fecha de inicio 2025-04-16, fecha estimada 2025-04-30
-    Note over Testing: Fecha de inicio 2025-05-01, fecha estimada 2025-05-15
-
+User ->> FE: Envío de datos
+FE ->> BE: Validación de datos
+BE ->> DB: Verificar existencia
+DB -->> BE: Datos correctos
+BE -->> FE: Respuesta validada
+FE -->> User: Login exitoso
     
 ---
 
