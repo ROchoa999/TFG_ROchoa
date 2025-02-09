@@ -128,14 +128,14 @@ erDiagram
     CLIENTE {
         int ID_Cliente PK
         string Nombre
-        string Dirección
-        string Teléfono
+        string Direccion
+        string Telefono
         string Email
     }
     PRODUCTO {
         int ID_Producto PK
         string Nombre
-        string Descripción
+        string Descripcion
         float Precio
         int Stock
     }
@@ -154,9 +154,9 @@ erDiagram
         float Precio_Unitario
     }
     ALBARAN {
-        int ID_Albarán PK
+        int ID_Albaran PK
         int ID_Venta FK
-        date Fecha_Emisión
+        date Fecha_Emision
         string Estado
     }
 
