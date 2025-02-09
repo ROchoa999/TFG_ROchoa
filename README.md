@@ -12,7 +12,8 @@ En este repositorio encontrarás toda la información sobre nuestro trabajo, en 
 3. [Instalación y Uso](#instalación-y-uso)
 4. [Arquitectura del Proyecto](#arquitectura-del-proyecto)
 5. [Desarrollo del Proyecto](#desarrollo-del-proyecto)
-6. [Video Promocional](#video-promocional)
+6. [Diagrama E/R](#diagrama-er)
+7. [Video Promocional](#video-promocional)
 
 ---
 
@@ -117,6 +118,54 @@ sequenceDiagram
     FE -->> User: Login exitoso
 ```
     
+---
+
+## Diagrama E/R
+<a name="diagrama-er"></a>
+
+```mermaid
+erDiagram
+    CLIENTE {
+        int ID_Cliente PK
+        string Nombre
+        string Dirección
+        string Teléfono
+        string Email
+    }
+    PRODUCTO {
+        int ID_Producto PK
+        string Nombre
+        string Descripción
+        float Precio
+        int Stock
+    }
+    VENTA {
+        int ID_Venta PK
+        date Fecha
+        int ID_Cliente FK
+        float Total
+        string Estado
+    }
+    DETALLE_VENTA {
+        int ID_Detalle PK
+        int ID_Venta FK
+        int ID_Producto FK
+        int Cantidad
+        float Precio_Unitario
+    }
+    ALBARAN {
+        int ID_Albarán PK
+        int ID_Venta FK
+        date Fecha_Emisión
+        string Estado
+    }
+
+    CLIENTE ||--o{ VENTA : "tiene"
+    VENTA ||--o{ DETALLE_VENTA : "contiene"
+    PRODUCTO ||--o{ DETALLE_VENTA : "incluye"
+    VENTA ||--|| ALBARAN : "genera"
+```
+
 ---
 
 ## :articulated_lorry: Video Promocional
