@@ -44,9 +44,9 @@ Hemos utilizado diversas tecnologías para el desarrollo de este proyecto, inclu
 
 ```mermaid
 pie
-    java: 40
-    aws: 40
-    GitHub: 20
+    "Java": 40
+    "AWS": 40
+    "GitHub": 20
     
 ```
 
