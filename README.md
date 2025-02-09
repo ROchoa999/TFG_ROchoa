@@ -29,14 +29,14 @@ Además, Motix es **accesible desde cualquier lugar del mundo con acceso a inter
 
 ## 🛠️ Tecnologías Utilizadas
 
-![Markdown](https://img.shields.io/badge/Markdown-%23000000.svg?style=flat&logo=markdown&logoColor=white)
-![Mermaid](https://img.shields.io/badge/Mermaid-%2300BFFF.svg?style=flat&logo=mermaid&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-%23181717.svg?style=flat&logo=github&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-%23FF9900.svg?style=flat&logo=amazon-aws&logoColor=white)
+![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white)
 
 Hemos utilizado diversas tecnologías para el desarrollo de este proyecto, incluyendo:
-- **Markdown** para la documentación 📜
-- **Mermaid** para los diagramas 📊
-- **GitHub** para la gestión del código 🛠️
+- ***GitHub*** para la gestión del código 🛠️
+- ***AWS*** para el despliegue en la nube ☁️
+- ***Java*** para el desarrollo backend ☕
 
 ---
 
