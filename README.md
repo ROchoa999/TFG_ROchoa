@@ -1,12 +1,12 @@
-# 📌 Proyecto Final de Grado
+# Motix
 
-¡Bienvenidos a nuestro proyecto final de grado! 🎓🚀
+¡Bienvenidos a nuestro proyecto final de grado! :mortar_board::rocket:
 
 En este repositorio encontrarás toda la información sobre nuestro trabajo, en el que hemos invertido esfuerzo, creatividad y conocimiento para desarrollar una solución innovadora.
 
 ---
 
-## 📖 Índice
+## :book: Índice
 1. [Descripción del Proyecto](#descripción-del-proyecto)
 2. [Tecnologías Utilizadas](#tecnologías-utilizadas)
 3. [Instalación y Uso](#instalación-y-uso)
@@ -16,7 +16,7 @@ En este repositorio encontrarás toda la información sobre nuestro trabajo, en 
 
 ---
 
-## 📌 Descripción del Proyecto
+## :pushpin: Descripción del Proyecto
 <a name="descripción-del-proyecto"></a>
 
 Motix es la solución integral para la gestión de logística y ventas, diseñada para satisfacer las necesidades de las empresas modernas. 
@@ -30,7 +30,7 @@ Además, Motix es **accesible desde cualquier lugar del mundo con acceso a inter
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## :hammer_and_wrench: Tecnologías Utilizadas
 <a name="tecnologías-utilizadas"></a>
 
 ![GitHub Seguidores](https://img.shields.io/github/followers/usuario?style=social)
@@ -38,13 +38,13 @@ Además, Motix es **accesible desde cualquier lugar del mundo con acceso a inter
 ![Java](https://img.shields.io/badge/Java-%23ED8B00.svg?style=flat&logo=openjdk&logoColor=white)
 
 Hemos utilizado diversas tecnologías para el desarrollo de este proyecto, incluyendo:
-- ***GitHub*** para la gestión del código 🛠️
-- ***AWS*** para el despliegue en la nube ☁️
-- ***Java*** para el desarrollo backend ☕
+- ***GitHub*** para la gestión del código :hammer_and_wrench:
+- ***AWS*** para el despliegue en la nube :cloud:
+- ***Java*** para el desarrollo backend :coffee:
 
 ---
 
-## 🚀 Instalación y Uso
+## :rocket: Instalación y Uso
 <a name="instalación-y-uso"></a>
 
 Sigue estos pasos para instalar y ejecutar el proyecto:
@@ -64,7 +64,7 @@ yarn start
 
 ---
 
-## 📐 Arquitectura del Proyecto
+## :triangular_ruler: Arquitectura del Proyecto
 <a name="arquitectura-del-proyecto"></a>
 
 A continuación, se muestra un diagrama que ilustra la arquitectura general del proyecto:
@@ -79,19 +79,19 @@ graph TD;
 
 ---
 
-## 🤝 Contribuciones
+## :handshake: Contribuciones
 <a name="contribuciones"></a>
 
 ¡Las contribuciones son bienvenidas! Si deseas colaborar con nuestro proyecto, sigue estos pasos:
-1. Haz un fork del repositorio 🔄
-2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`) 🌿
-3. Realiza tus cambios y confirma los cambios (`git commit -m 'Añadir nueva funcionalidad'`) 📌
-4. Sube los cambios (`git push origin feature/nueva-funcionalidad`) 🚀
-5. Abre un Pull Request 📩
+1. Haz un fork del repositorio :arrows_counterclockwise:
+2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`) :herb:
+3. Realiza tus cambios y confirma los cambios (`git commit -m 'Añadir nueva funcionalidad'`) :pushpin:
+4. Sube los cambios (`git push origin feature/nueva-funcionalidad`) :rocket:
+5. Abre un Pull Request :envelope_with_arrow:
 
 ---
 
-## 📜 Licencia
+## :scroll: Licencia
 <a name="licencia"></a>
 
 Este proyecto está bajo la licencia MIT. Para más información, consulta el archivo `LICENSE`.
