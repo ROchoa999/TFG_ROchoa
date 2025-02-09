@@ -96,7 +96,7 @@ graph TD;
 ## :articulated_lorry: Video Promocional
 <a name="video-promocional"></a>
 
-[![Transportes SATA]([URL_de_la_miniatura](https://img.youtube.com/vi/4qDOnB9bWzQ/0.jpg))]([URL_del_vídeo](https://www.youtube.com/watch?v=4qDOnB9bWzQ))
+[![Transportes SATA]((https://img.youtube.com/vi/4qDOnB9bWzQ/0.jpg))]((https://www.youtube.com/watch?v=4qDOnB9bWzQ))
 
 ---
 
