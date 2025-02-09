@@ -98,4 +98,4 @@ Este proyecto está bajo la licencia MIT. Para más información, consulta el ar
 
 ---
 
-✨ _Gracias por visitar nuestro repositorio y ser parte de este proyecto!_ 🚀
+:sparkles: _Gracias por visitar nuestro repositorio y ser parte de este proyecto!_ :rocket:
