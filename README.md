@@ -133,7 +133,7 @@ sequenceDiagram
     
 ---
 
-## Diagrama E/R
+## :bar_chart: Diagrama E/R
 <a name="diagrama-er"></a>
 
 ```mermaid
