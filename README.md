@@ -11,7 +11,7 @@ En este repositorio encontrarás toda la información sobre nuestro trabajo, en 
 2. [Tecnologías Utilizadas](#tecnologías-utilizadas)
 3. [Instalación y Uso](#instalación-y-uso)
 4. [Arquitectura del Proyecto](#arquitectura-del-proyecto)
-5. [Contribuciones](#contribuciones)
+5. [Desarrollo del Proyecto](#desarrollo-del-proyecto)
 6. [Licencia](#licencia)
 
 ---
@@ -79,15 +79,17 @@ graph TD;
 
 ---
 
-## :handshake: Contribuciones
-<a name="contribuciones"></a>
+## :wrench: Desarrollo del Proyecto
+<a name="desarrollo-del-proyecto"></a>
 
-¡Las contribuciones son bienvenidas! Si deseas colaborar con nuestro proyecto, sigue estos pasos:
-1. Haz un fork del repositorio :arrows_counterclockwise:
-2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`) :herb:
-3. Realiza tus cambios y confirma los cambios (`git commit -m 'Añadir nueva funcionalidad'`) :pushpin:
-4. Sube los cambios (`git push origin feature/nueva-funcionalidad`) :rocket:
-5. Abre un Pull Request :envelope_with_arrow:
+| Módulo         | Descripción                                      | Tecnologías Utilizadas | Estado       | Fecha de Inicio | Fecha Estimada de Finalización |
+|----------------|--------------------------------------------------|------------------------|--------------|-----------------|-------------------------------|
+| Autenticación  | Gestión de usuarios y autenticación              | Node.js, JWT           | Completado   | 2025-01-01      | 2025-01-10                    |
+| Base de Datos  | Diseño y gestión de la base de datos             | MongoDB, Mongoose      | En progreso  | 2025-01-11      | 2025-02-01                    |
+| API REST       | Creación de endpoints para la aplicación         | Express.js             | Completado   | 2025-01-02      | 2025-01-15                    |
+| Frontend       | Desarrollo de la interfaz de usuario             | React, Redux           | En progreso  | 2025-01-16      | 2025-02-15                    |
+| Integración    | Integración de servicios externos (pagos, envíos)| Stripe API, DHL API    | Pendiente    | 2025-02-02      | 2025-02-20                    |
+| Testing        | Pruebas unitarias y de integración               | Jest, Mocha            | En progreso  | 2025-01-20      | 2025-02-10                    |
 
 ---
 
